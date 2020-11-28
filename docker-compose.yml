@@ -1,0 +1,9 @@
+version: '3'
+services:
+  bstreamer:  
+    build: .
+    shm_size: '1gb'
+    ports:
+      - 8554:8554
+      - 8070:8080
+      - 9222:9222
